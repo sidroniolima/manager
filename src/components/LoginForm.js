@@ -20,7 +20,8 @@ class LoginForm extends Component
 	onButtonPress()
 	{
 		const { email, password } = this.props;
-		this.props.loginUser({ email, password });
+		console.log({ email, password });
+		//this.props.loginUser({ email, password });
 	}
 
 	renderButton()
